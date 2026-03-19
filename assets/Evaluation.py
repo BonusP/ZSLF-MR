@@ -10,7 +10,7 @@ def find_images(folder):
     fold_path = glob.glob(os.path.join(folder,'*.png'))
     paths = sorted(fold_path)
     if len(paths) == 0:
-        raise ValueError(f"`{folder}`에서 이미지를 찾지 못했습니다.")
+        raise ValueError(f"No images found in {folder}.")
     return paths
 
 
