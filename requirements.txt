@@ -1,0 +1,10 @@
+numpy
+scipy
+torch
+torchvision
+pyyaml
+opencv-python
+matplotlib
+tqdm
+scikit-image
+requests  # For downloading the DDNM model checkpoint

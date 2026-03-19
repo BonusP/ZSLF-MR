@@ -1,0 +1,26 @@
+# Environments
+.env
+.venv
+env/
+venv/
+venv_mrii/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Datasets and Checkpoints (Heavy files)
+*.mat
+*.pt
+*.pth
+dataset/
+assets/ddnm/exp/logs/imagenet/*.pt
+
+# Experiment Results
+results/
+test/
+*.npy
